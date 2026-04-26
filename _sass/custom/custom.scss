@@ -1,148 +1,69 @@
-/* Professional CTF-inspired theme override for Just the Docs */
+/* Slight visual refresh for home/docs pages */
 
 :root {
-  --ctf-bg: #f2f7f6;
-  --ctf-bg-grid: rgba(15, 23, 42, 0.055);
-  --ctf-panel: #ffffff;
-  --ctf-panel-ink: #0f172a;
-  --ctf-ink: #1e293b;
-  --ctf-muted: #475569;
-  --ctf-accent: #16a34a;
-  --ctf-accent-strong: #15803d;
-  --ctf-accent-soft: #dcfce7;
-  --ctf-terminal: #0b1220;
+  --catssy-accent: #0f766e;
+  --catssy-accent-soft: #ccfbf1;
+  --catssy-ink: #1f2937;
+  --catssy-muted: #4b5563;
 }
 
 body {
-  color: var(--ctf-ink);
+  color: var(--catssy-ink);
   line-height: 1.65;
-  font-family: "IBM Plex Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--ctf-bg);
-  background-image:
-    linear-gradient(to right, var(--ctf-bg-grid) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--ctf-bg-grid) 1px, transparent 1px),
-    radial-gradient(circle at 85% 10%, rgba(22, 163, 74, 0.09), transparent 38%);
-  background-size: 28px 28px, 28px 28px, auto;
-}
-
-.side-bar {
-  background: linear-gradient(180deg, #0b1220, #111b2f);
-}
-
-.site-title,
-.site-title:hover,
-.nav-list .nav-list-link {
-  color: #d1fae5;
-}
-
-.nav-list .nav-list-item .nav-list-expander {
-  color: #86efac;
-}
-
-.main {
-  background: transparent;
-}
-
-.main-content-wrap {
-  background: var(--ctf-panel);
-  border: 1px solid #e2e8f0;
-  border-radius: 14px;
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
-}
-
-.main-content {
-  color: var(--ctf-ink);
 }
 
 .main-content h1,
 .main-content h2,
-.main-content h3,
-.main-content h4 {
-  color: var(--ctf-panel-ink);
-  font-family: "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
+.main-content h3 {
   letter-spacing: 0.01em;
+  color: #111827;
 }
 
-.main-content h1 {
-  text-transform: uppercase;
-  font-size: clamp(1.8rem, 2.4vw, 2.35rem);
+.main-content a {
+  color: var(--catssy-accent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
+  transition: color 120ms ease;
 }
 
-.main-content h1::before {
-  content: "> ";
-  color: var(--ctf-accent);
+.main-content a:hover {
+  color: #115e59;
 }
 
 .main-content p,
 .main-content li {
-  color: var(--ctf-muted);
+  color: var(--catssy-muted);
 }
 
-.main-content a {
-  color: var(--ctf-accent-strong);
-  text-decoration-thickness: 0.09em;
-  text-underline-offset: 0.16em;
-  transition: color 150ms ease, text-shadow 150ms ease;
-}
-
-.main-content a:hover {
-  color: #166534;
-  text-shadow: 0 0 12px rgba(22, 163, 74, 0.28);
-}
-
-.main-content code,
-.main-content pre {
-  font-family: "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
-}
-
-.main-content code {
-  background: #e2e8f0;
-  color: #0b1220;
-  border-radius: 5px;
-  padding: 0.12rem 0.34rem;
-}
-
-.main-content pre {
-  border: 1px solid #1f2937;
-  background: var(--ctf-terminal);
-  color: #e2fbe9;
-  border-radius: 10px;
-}
-
-/* Agenda table gets a terminal-inspired treatment with strong readability */
+/* Improve readability of wide schedule tables */
 .main-content table {
   width: 100%;
   border-collapse: collapse;
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
-  border: 1px solid #1e293b;
-  box-shadow: 0 6px 20px rgba(2, 6, 23, 0.15);
+  box-shadow: 0 2px 10px rgba(2, 6, 23, 0.06);
 }
 
 .main-content thead th {
-  background: linear-gradient(90deg, #0b1220, #13223a);
-  color: #dcfce7;
+  background: linear-gradient(90deg, #134e4a, #0f766e);
+  color: #f8fafc;
   font-weight: 600;
-  border-bottom: 1px solid #334155;
+  border-bottom: none;
 }
 
 .main-content th,
 .main-content td {
-  padding: 0.76rem 0.84rem;
+  padding: 0.72rem 0.8rem;
   vertical-align: top;
-  border-color: #d1d5db;
+  border-color: #e5e7eb;
 }
 
 .main-content tbody tr:nth-child(odd) {
-  background-color: #f8fafc;
-}
-
-.main-content tbody tr:nth-child(even) {
-  background-color: #f1f5f9;
+  background-color: #fafafa;
 }
 
 .main-content tbody tr:hover {
-  background-color: var(--ctf-accent-soft);
+  background-color: var(--catssy-accent-soft);
 }
 
 .main-content small a {
@@ -150,17 +71,13 @@ body {
 }
 
 @media (max-width: 800px) {
-  .main-content-wrap {
-    border-radius: 10px;
-  }
-
   .main-content {
-    font-size: 0.96rem;
+    font-size: 0.97rem;
   }
 
   .main-content th,
   .main-content td {
-    padding: 0.58rem 0.52rem;
-    font-size: 0.9rem;
+    padding: 0.6rem 0.55rem;
+    font-size: 0.92rem;
   }
 }
