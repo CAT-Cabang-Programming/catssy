@@ -7,7 +7,7 @@ layout: home
 
 | Wk. | Date | Materials | Discussion | Tools Used |
 |-----|------|-----------|------------|------------|
-| 1 | Tue Apr 27 | Learn the basics of CTFs and binary exploitation - what they are, how they work, and how to start solving challenges. <small>[pdf](#)</small> | <small>[google meet](#)</small> | gcc, gdb, pwntools |
+| 1 | Tue Apr 27 | Learn the basics of CTFs and binary exploitation - what they are, how they work, and how to start solving challenges. <small>[pdf01](#)</small> | <small>[google meet](#)</small> | gcc, gdb, pwntools |
 | 1 | Wed Apr 28 | TBA | TBA | TBA |
 | 1 | Thu Apr 29 | TBA | TBA | TBA |
 | 2 | Tue May 04 | TBA | TBA | TBA |
