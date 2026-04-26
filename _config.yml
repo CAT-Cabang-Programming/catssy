@@ -2,7 +2,8 @@ title: cat.
 description: a page
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://cat-cabang-programming.github.io
+baseurl: /catssy
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Repository: https://github.com/cat-cabang-programming/catssy
