@@ -5,9 +5,9 @@ layout: home
 
 # Our Agenda
 
-| Wk. | Date | Materials | Discussion | Tools Used | Attachment |
+| Week - role | Date | Materials | Discussion | Tools Used | Attachment |
 |-----|------|-----------|------------|------------|------------|
-| 1 | Tue Apr 27 | Learn the basics of CTFs and binary exploitation - what they are, how they work, and how to start solving challenges. <small>[[introctf.pdf]]({{ '/assets/materials/introctf.pdf' | relative_url }}), [[introstack.pdf]]({{ '/assets/materials/introstack.pdf' | relative_url }}), [[bufferoverflow.pdf]]({{ '/assets/materials/bufferoverflow.pdf' | relative_url }})</small> | <small>[google meet](#)</small> | gcc, gdb, pwntools | - |
+| 1 - pwn | Tue Apr 27 | Learn the basics of CTFs and binary exploitation - what they are, how they work, and how to start solving challenges. <small>[[introctf.pdf]]({{ '/assets/materials/introctf.pdf' | relative_url }}), [[introstack.pdf]]({{ '/assets/materials/introstack.pdf' | relative_url }}), [[bufferoverflow.pdf]]({{ '/assets/materials/bufferoverflow.pdf' | relative_url }})</small> | <small>[google meet](#)</small> | gcc, gdb, pwntools | - |
 | 1 | Wed Apr 28 | TBA | TBA | TBA | - |
 | 1 | Thu Apr 29 | TBA | TBA | TBA | - |
 | 2 | Tue May 04 | TBA | TBA | TBA | - |
