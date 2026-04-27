@@ -3,11 +3,6 @@ title: Readings
 layout: page
 ---
 
-# Panduan Lengkap CTF, Stack, Pointer, Assembly & Buffer Overflow
-
-> **Disusun berdasarkan materi:** Pengenalan CTF · Stack, Pointer & Assembly · Buffer Overflow  
-> **Bahasa:** Indonesia Formal  
-> **Tingkat:** Pemula hingga Menengah
 
 ---
 
@@ -57,6 +52,12 @@ layout: page
    - 3.15 [Referensi dan Sumber Belajar](#315-referensi-dan-sumber-belajar)
 
 ---
+# Panduan Lengkap CTF, Stack, Pointer, Assembly & Buffer Overflow
+
+> **Disusun berdasarkan materi:** Pengenalan CTF · Stack, Pointer & Assembly · Buffer Overflow  
+> **Bahasa:** Indonesia Formal  
+> **Tingkat:** Pemula hingga Menengah
+
 
 # 1. Pengenalan CTF (Capture the Flag)
 
