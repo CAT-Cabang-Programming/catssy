@@ -2,12 +2,6 @@ title: cat.
 description: a page
 theme: just-the-docs
 
-color_scheme: wider
-search_enabled: true
-heading_anchors: true
-enable_copy_code_button: true
-permalink: pretty
-
 
 url: https://cat-cabang-programming.github.io
 baseurl: /catssy
