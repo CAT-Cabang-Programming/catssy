@@ -1,5 +1,5 @@
 ---
-title: Readings
+title: Readings (pwn)
 layout: page
 ---
 
